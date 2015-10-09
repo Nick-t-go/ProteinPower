@@ -1,0 +1,22 @@
+<form novalidate ng-submit="submit()" name="newFormValidations">
+
+    <hr>
+    <!-- fields:
+    question(string) ,
+    category(string),
+    answers([{ text(string), correct(bool) }]) -->
+    <div>
+        <label for="item">{{item.name}}</label>
+        <img src="img/protein.jpeg">
+    </div>
+
+    <div>
+        <label for="weight">Category</label>
+        <select name="weight" ng-model="formData.weight" ng-options="weight as weight for weight in weights"></select>
+    </div>
+
+    <div>
+        <button type="submit" ng-disabled="newFormValidations.$invalid">Add Flash Card</button>
+    </div>
+    <hr>
+</form>

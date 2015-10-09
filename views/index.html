@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>KickAss Protein Health Company</title>
+        <meta name="viewport" content="width=device-width initial-scale=1.0"/>
+        <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="../css/sass.css" type="text/css" media="screen">
+    </head>
+    <body ng-app="StoreApp" ng-controller="MainCtrl">
+        <div class="container" >
+            <div class = "row">
+                <div class = "col-md-5 logo">
+                    <img src="img/logoPlace.png" alt="logo">
+                </div>
+                <div class="col-md-7 ">
+                    <ul class="nav nav-pills pull-right">
+                        <li><a ui-sref='home'>Home </a></li>
+                        <li><a ui-sref='store'>Store </a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div ui-view></div>
+        </div>
+        <link href="https://code.jquery.com/jquery-2.1.4.min.js">
+        <script src="../bower_components/jquery/dist/jquery.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="angular.js"></script>
+        <script src="angular-ui-router.js"></script>
+        <script src="app.js"></script>
+        <script src="controllers/main.controller.js"></script>
+        <script src="controllers/cart.controller.js"></script>
+        <script src="factories/items.factory.js"></script>
+        <script src="factories/category.factory.js"></script>
+        <script src="factories/price.factory.js"></script>
+        <script src="directives/loader/loader.directive.js"></script>
+        <script src="directives/item/item.directive.js"></script>
+        <script src="directives/borderOnHover/borderOnHover.directive.js"></script>
+
+
+    </body>
+</html>
+

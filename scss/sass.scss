@@ -1,0 +1,53 @@
+$primary-color: #FFFB70;
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background: $primary-color;
+  color: complement($primary-color)
+};
+
+.nav {
+  margin-top: 70px;
+}
+
+.nav li a, {
+  font-size: 1.2em;
+}
+
+h1, h2 , h3, h4, h5 {
+  font-family: 'Nunito', sans-serif;
+}
+.cta-btn {
+  color: #FAF3BC;
+  background: #4FB69F url('img/texture.png') no-repeat right top;
+  padding: 15px 30px;
+  margin: 40px 0px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  border: none;
+  font-size: 1.2em
+}
+
+#new-img img {
+  border: 8px solid #FAF3BC;
+  margin: 0 0 20px 0;
+}
+
+#featured-img img {
+  border: 8px solid #FAF3BC;
+}
+
+.item {
+  border: 1px dotted;
+
+}
+
+
+.bordered {
+  border: 1px solid black;
+  box-shadow: 3px 4px 5px 1px rgb(107, 107, 107);
+}
+
+* {
+  box-sizing: border-box;
+}

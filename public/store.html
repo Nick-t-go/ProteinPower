@@ -1,0 +1,10 @@
+<button
+        ng-repeat="category in categories"
+        class="category-button"
+        ng-click="filterByCategory(category)"
+        ng-class="{active: activeCat == category}">{{ category }}
+</button>
+<div class = "container">
+        <item ng-repeat="item in items" item="item"></item>
+        <loader ng-hide="items"></loader>
+</div>

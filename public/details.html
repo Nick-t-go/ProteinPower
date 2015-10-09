@@ -1,0 +1,11 @@
+<div class="item col-md-6" border-on-hover>
+    <h1>
+        <img src="{{item.imageURL}}" alt="Smiley face" height="42" width="42">
+        <a ui-sref='details({ _id: theItem._id })'>{{ item.name}}</a>
+    </h1>
+
+    <h4 ng-repeat="category in item.category">
+        {{category}}
+    </h4>
+
+</div>
