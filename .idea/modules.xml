@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$USER_HOME$/WebstormProjects/ProteinAlpha/.idea/ProteinAlpha.iml" filepath="$USER_HOME$/WebstormProjects/ProteinAlpha/.idea/ProteinAlpha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ProteinPower.iml" filepath="$PROJECT_DIR$/.idea/ProteinPower.iml" />
     </modules>
   </component>
 </project>
